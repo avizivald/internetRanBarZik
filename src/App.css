@@ -1,0 +1,95 @@
+.MainApp {
+    text-align: center;
+    background-image: url("./mazaltov.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partOfNavBar {
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    direction: rtl;
+}
+
+.myNavbar {
+    background-color: #b0d3df !important;
+    height: 50px;
+    padding: 17px 50px 0px 0px;
+    direction: rtl !important;
+}
+
+.validmessage {
+    color: rgb(238, 8, 8);
+    font-size: small;
+    font-weight: bolder;
+    margin: 4px;
+}
+
+.header {
+    font-weight: bolder;
+    margin: 0px
+}
+
+.theinput {
+    border: none;
+    width: 170px!important;
+}
+
+.inputbox {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(241, 235, 235, 0.4);
+    opacity: 5;
+    height: 70px;
+    width: 180px!important;
+
+}
+.title{
+    position: absolute;
+    top: 90px;
+    right:25%;
+    margin:0px!important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 800;
+    color: #e5bc58;
+}
+.newUser{
+    position: absolute;
+    top: 290px;
+    right: 200px;
+    width: 300px;
+    padding: 20px;
+    border: black 1px solid;
+}.titleOfNewUser{
+    font-weight: bolder;
+    margin:0px!important;
+
+}
+.sendButton{
+    width: 211px;
+    height: 60px;
+    background: #e5bc58;
+
+}
+.home {
+    height: 830px;
+    background-image: url("./mazaltov.jpg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+}
