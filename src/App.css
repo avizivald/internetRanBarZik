@@ -1,9 +1,10 @@
 .MainApp {
     text-align: center;
-    background-image: url("./mazaltov.jpg");
+    /* background-image: url("./mazaltov.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height:120%; */
 }
 
 .partOfNavBar {
@@ -42,7 +43,7 @@ body {
 
 .theinput {
     border: none;
-    width: 170px!important;
+    width: 170px !important;
 }
 
 .inputbox {
@@ -51,43 +52,60 @@ body {
     background-color: rgba(241, 235, 235, 0.4);
     opacity: 5;
     height: 70px;
-    width: 180px!important;
+    width: 180px !important;
 
 }
-.title{
+
+.title {
     position: absolute;
     top: 90px;
-    right:25%;
-    margin:0px!important;
+    right: 25%;
+    margin: 0px !important;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     font-weight: 800;
     color: #e5bc58;
 }
-.newUser{
+
+.first {
+    margin-top: 30px;
+}
+
+.secend {
+    margin-top: 30px;
+}
+
+.newUser {
+    display: flex;
+    flex-wrap: nowrap;
     position: absolute;
-    top: 290px;
-    right: 200px;
-    width: 300px;
+    top: 230px;
+    right: 260px;
+    width: 500px;
     padding: 20px;
     border: black 1px solid;
-}.titleOfNewUser{
+}
+
+.titleOfNewUser {
     font-weight: bolder;
-    margin:0px!important;
+    margin: 0px !important;
 
 }
-.sendButton{
-    width: 211px;
-    height: 60px;
+
+.sendButton {
+    width: 205px;
+    height: 81px;
     background: #e5bc58;
 
 }
+
 .home {
-    height: 830px;
+    height: 900px;
     background-image: url("./mazaltov.jpg");
-    background-position:  center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: sticky;
 }
 
 a:link {
